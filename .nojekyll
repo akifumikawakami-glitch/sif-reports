@@ -108,7 +108,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
     <h3>ベース収益（緑）／B2Cスポット（青）／B2Bスポット等（オレンジ）の積み上げ棒グラフ</h3>
     <div class="chart-wrap"><canvas id="chart1"></canvas></div>
   </div>
-  <div class="ai-box">売上構成は月によって極端にブレており、安定したベース収益は一貫して0.09M（または0M）と事業の自走力が非常に薄い状態である。2月・4月はB2CおよびB2B等のスポット入金が売上を押し上げたが、5月以降はスポット入金が完全に途絶え、6〜7月は売上ゼロという深刻な状況に陥っている。事業の根幹となるベース収益の絶対額が小さすぎるため、スポット案件の有無で経営が乱高下する極めて不安定な収益構造となっている。</div>
+  <div class="ai-box">売上構成は月によって極端に異なり、2月・3月はB2Cスポット（アカデミー入金・Harukky等と推定）が売上の大半を占め、4月はB2B等スポット4.29Mが突出して全体を押し上げている。一方、ベース収益は全期間を通じて0.09M前後と固定的であり、事業の根幹を支えるサブスク・顧問料等の積み上げがほぼ進んでいない状態である。6月・7月は全品目でゼロ計上となっており、売上データ未入力またはビジネス活動の実質的な停止が懸念される。</div>
 </div>
 
 <div class="divider"></div>
@@ -120,7 +120,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
     <h3>売上高（青・左）／総費用（オレンジ・左）／現預金残高推移（折れ線・右軸）</h3>
     <div class="chart-wrap"><canvas id="chart2"></canvas></div>
   </div>
-  <div class="ai-box">売上高の変動が非常に激しく、2月・4月は高収益を確保できている一方、3月・5月は売上が低迷しているにもかかわらず費用が高水準のまま推移しており、赤字幅が大きくなっています。費用が売上に連動してコントロールされておらず、固定費の比率が高い構造である可能性が高いため、売上の少ない月における費用圧縮が急務です。6〜7月は売上・費用ともにほぼゼロで事業が実質停止状態にあり、事業継続性の観点からも早急な収益回復策の検討が必要です。</div>
+  <div class="ai-box">売上高と総費用の間に相関関係がなく、売上が低い月でも費用が高止まりするケースが見られるため（特に3月・5月）、固定費比率が高く売上変動に費用構造が追随できていないことが課題です。4月は高売上と低費用が重なり約3Mの利益を確保できている一方、6〜7月は売上・費用ともにほぼゼロであることから、事業活動が実質停止に近い状態となっており、収益の月間ボラティリティが極めて大きい不安定な利益構造と言えます。</div>
 </div>
 
 <div class="divider"></div>
@@ -138,7 +138,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
       <div class="chart-wrap"><canvas id="chart3b"></canvas></div>
     </div>
   </div>
-  <div class="ai-box">費用構造は月によって0.01M〜4.20Mと大きく変動しており、固定費と変動費の区別が財務データ上から明確に読み取れない点が管理上の課題である。3月に総費用4.20Mという突出した支出があり、この月に営業赤字2.76Mを発生させた主因となっている。6〜7月は費用がほぼゼロ（0.01〜0.02M）であることから、事業活動が実質停止に近い状態であることが費用面からも裏付けられる。</div>
+  <div class="ai-box">費用構造は月によって0.01M〜4.20Mと振れ幅が異常に大きく、3月の総費用4.20Mは突出した支出（外注・原価・一時経費等）が重なったと見られ、営業利益を▲2.76Mに押し下げた主因となっている。5月以降は総費用が1.39M→0.01M→0.02Mと急激に縮小しており、意図的なコスト抑制か、活動自体の縮小かを判別する必要がある。固定費に相当する構造的コストの実態が月次データから読み取りにくく、費用の科目管理・入力精度の向上が急務である。</div>
 </div>
 
 <div class="divider"></div>
@@ -156,7 +156,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
       <tbody><tr><td><b>2026/02</b></td><td class='num'>323万</td><td class='num'>0万</td><td class='num'>200万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+123万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="14.4" x2="77" y2="14.4" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,9.7 17.8,25.0 32.6,3.0 47.4,19.4 62.2,14.4 77.0,14.5" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="3.0" cy="9.7" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num'>279.5%</td></tr><tr><td><b>2026/03</b></td><td class='num'>144万</td><td class='num'>0万</td><td class='num'>420万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-276万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="14.4" x2="77" y2="14.4" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,9.7 17.8,25.0 32.6,3.0 47.4,19.4 62.2,14.4 77.0,14.5" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="17.8" cy="25.0" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num'>44.2%</td></tr><tr><td><b>2026/04</b></td><td class='num'>438万</td><td class='num'>0万</td><td class='num'>140万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+298万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="14.4" x2="77" y2="14.4" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,9.7 17.8,25.0 32.6,3.0 47.4,19.4 62.2,14.4 77.0,14.5" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="32.6" cy="3.0" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num'>349.9%</td></tr><tr><td><b>2026/05</b></td><td class='num'>9万</td><td class='num'>0万</td><td class='num'>139万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-130万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="14.4" x2="77" y2="14.4" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,9.7 17.8,25.0 32.6,3.0 47.4,19.4 62.2,14.4 77.0,14.5" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="47.4" cy="19.4" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num'>3.0%</td></tr><tr><td><b>2026/06</b></td><td class='num'>0万</td><td class='num'>0万</td><td class='num'>1万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-1万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="14.4" x2="77" y2="14.4" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,9.7 17.8,25.0 32.6,3.0 47.4,19.4 62.2,14.4 77.0,14.5" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="62.2" cy="14.4" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num'>0.0%</td></tr><tr><td><b>2026/07</b></td><td class='num'>0万</td><td class='num'>0万</td><td class='num'>2万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-2万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="14.4" x2="77" y2="14.4" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,9.7 17.8,25.0 32.6,3.0 47.4,19.4 62.2,14.4 77.0,14.5" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="77.0" cy="14.5" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num'>0.0%</td></tr></tbody>
     </table>
   </div>
-  <div class="ai-box">月別の数値で最も特筆すべきは、3月に費用4.20Mが集中し営業赤字2.76Mを計上したにもかかわらず、4月のB2B等スポット入金4.29Mによって現預金が4.45Mまで回復した点であり、キャッシュフローの綱渡り状態が鮮明である。5月以降は売上が急減し現預金も2.23M→1.82Mと減少傾向にあり、6〜7月は費用・売上ともにほぼ計上がないことからデータ未入力の可能性も否定できない。月次データの正確な入力と費用の発生タイミング管理が急務である。</div>
+  <div class="ai-box">4月の売上4.38M・営業利益2.98Mは全期間で最高値であるが、翌5月には売上0.09Mへ急落しており、B2B案件の一発完結型であることを示している。3月の営業利益▲2.76Mは費用4.20Mの急増が原因であり、スポット収入の谷間に大型支出が重なるキャッシュフロー管理上の最大リスクポイントとなった。6月・7月は売上・費用ともに実質ゼロという異例の状態が続いており、事業継続性の観点から即時確認・対応が必要である。</div>
 </div>
 
 <div class="divider"></div>
@@ -166,15 +166,15 @@ tr:nth-child(even):hover td{background:#f0f4f8}
   <div class="sec-title">🔍 全体分析</div>
   <div class="ac">
     <h2>現状分析</h2>
-    <p>① **固定費カバー率**：ベース収益は最大でも0.09M/月に過ぎず、固定費カバー率は2〜6%と極めて低水準。自力で固定費をカバーできておらず、スポット案件依存の綱渡り経営が続いている。<br><br>② **スポット入金とランウェイへの影響**：2月のB2C入金3.13M、4月のB2B等入金4.29Mがランウェイ3.8ヶ月を辛うじて支えている。これらの大型入金がなければ、3月時点で資金ショートに陥っていた可能性が高い。<br><br>③ **資金ショート予測**：現預金1.82M・ランウェイ3.8ヶ月から逆算すると月間費用は約0.48M。新規施策への投資余剰はほぼなく、次のスポット入金がなければ2026年11月前後に資金ショートの危険がある。<br><br>④ **「未選択」売上の注意**：品目「未選択」の計上が疑われる場合、売上区分の正確な分析が不可能となる。freeeの入力ルールを即時整備し、全取引に品目タグを付与することが不可欠である。</p>
+    <p>- ① **固定費カバー率**：ベース収益0.09Mに対し総費用は最大4.20M。カバー率は2〜6%に過ぎず、固定費を自力でカバーできていない状態が全月で継続している。スポット収入がなければ毎月赤字という構造的脆弱性が明確であり、ベース収益の早期積み上げが最優先課題。<br><br>- ② **スポット入金とランウェイへの影響**：アカデミー入金（B2C）やHarukky等B2B大型案件が現預金を2月3.70M・4月4.45Mへ押し上げ、ランウェイ3.8ヶ月を下支えしている。しかし5月以降は入金が途絶え現預金は1.82Mまで減少。スポット依存でランウェイを維持している構造そのものがリスク。<br><br>- ③ **資金ショート予測**：現預金1.82Mでランウェイ3.8ヶ月は月次burn約0.48M相当。新規スポット案件がなければ2026年10〜11月に資金ショートリスクが生じる。新規施策への投資余剰キャッシュはほぼ存在しない。<br><br>- ④ **「未選択」品目リスク**：6・7月の売上ゼロは未入力の可能性があり、品目「未選択」や計上漏れが累積している場合、損益の実態把握が歪む。freeeの品目入力ルールを即時整備・統一すること。</p>
   </div>
   <div class="ac green">
     <h2>💡 課題と提案</h2>
-    <p>- **ベース収益の構築が最優先**：月0.09Mのベース収益では事業の自立は不可能。サブスクリプション・顧問契約・定期受注など継続課金モデルの導入を至急検討すること。<br>- **スポット案件のパイプライン管理**：B2C・B2B等のスポット案件は月次計画に組み込み、3ヶ月先の受注見込みを常時管理する。<br>- **費用の月次平準化**：3月のような費用集中を避けるため、大型支出は分割計上・事前予算承認ルールを設ける。<br>- **6〜7月のデータ確認**：売上・費用ともにほぼゼロは異常値の可能性があり、入力漏れがないか直ちに確認すること。</p>
+    <p>- **ベース収益の構造化**：現状0.09M/月のサブスク・顧問料等を最低0.5M/月へ引き上げる商品設計（月額顧問・継続コーチング等）を優先設計する。<br>- **スポット依存の平準化**：B2C・B2Bスポットは歓迎するが「入金月の翌月に必ず次のパイプラインを確保」するルールを営業プロセスに組み込む。<br>- **3月型コスト暴発の再発防止**：大型支出前に営業利益・現預金への影響シミュレーションを必須化し、経営者が承認するフローを設ける。<br>- **6・7月データの即時精査**：売上・費用ゼロが入力漏れであれば直ちに修正し、実態損益を把握する。</p>
   </div>
   <div class="ac red">
     <h2>🎯 今月の最重要アクション</h2>
-    <p>- **今月中に次のスポット案件（B2CまたはB2B）の受注を最低1件確定させる**。現預金1.82Mはランウェイ3.8ヶ月分しかなく、猶予は少ない。<br>- **6・7月のfreeeデータ入力漏れを今週中に確認・修正**し、実態を正確に把握する。<br>- **ベース収益化できる既存顧客1社との継続契約交渉**を今月着手し、来月からの定額入金を確保する。</p>
+    <p>- **〆切：今週中**　6月・7月の売上・費用データをfreeeに正確に入力し、実態損益を確定させる。<br>- **〆切：今月末**　月額継続型サービス（顧問・月額コーチング等）の提案書を既存顧客2名以上に送付し、ベース収益0.2M/月増を目指す。<br>- **〆切：今月末**　次のB2Bスポット案件の見込み先を最低1社特定し、初回アポを設定する（現預金1.82Mで猶予は約3ヶ月しかない）。</p>
   </div>
 </div>
 
