@@ -68,7 +68,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
 
 <header>
   <h1>📊 SIF 月次経営レポート（2026年9月）第4期</h1>
-  <p>会計期間: 2025年12月〜2026年11月 ／ 生成日: 2026-09-26</p>
+  <p>会計期間: 2025年12月〜2026年11月 ／ 生成日: 2026-09-27</p>
 </header>
 
 <div class="kpi-bar">
@@ -108,7 +108,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
     <h3>ベース収益（緑）／B2Cスポット（青）／B2Bスポット等（オレンジ）の積み上げ棒グラフ</h3>
     <div class="chart-wrap"><canvas id="chart1"></canvas></div>
   </div>
-  <div class="ai-box">売上の大半はB2CスポットおよびB2B等の単発収益で構成されており、ベース収益は毎月0.09M（9万円）と固定で推移している。B2C売上は2月・7月に3M超の大型月があるが、5月・8月・9月はゼロに落ち込むなど極端な波があり、安定収益基盤が事実上存在しない状況だ。B2B等は4月に4.29Mと突出しているが他月はほぼゼロであり、収益構造は"スポット頼み"の構造が明確である。</div>
+  <div class="ai-box">売上の大半はB2Cスポット（講座・セミナー等）とB2B等スポットで占められており、ベース収益は毎月0.09M前後と極めて小さく、事業の土台となる安定収益がほぼ機能していない状態が続いている。B2C売上は2月・7月に3M超の大型計上があるものの、5月・8月はゼロに近く、月次の振れ幅が非常に大きい。4月にはB2B等で4.29Mの大型入金があり、これが上半期の現預金水準を支えた主因となっている。</div>
 </div>
 
 <div class="divider"></div>
@@ -120,7 +120,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
     <h3>売上高（青・左）／総費用（オレンジ・左）／現預金残高推移（折れ線・右軸）</h3>
     <div class="chart-wrap"><canvas id="chart2"></canvas></div>
   </div>
-  <div class="ai-box">売上高の変動が非常に大きく（0〜4.38M）、費用は比較的1〜1.8M程度に収まる月が多いことから、売上が一定水準（概ね1.8M超）を確保できた月のみ黒字化するという構造になっています。一方で2026/03のように費用が3.44Mに急騰した月は売上が高くても大幅赤字となっており、費用管理の安定性にも課題があります。全体として売上の予測可能性が低く、損益の振れ幅が極めて大きいため、安定的な受注・売上の平準化と固定費の上限管理が経営上の最優先課題といえます。</div>
+  <div class="ai-box">売上高が月によって0円から4.38Mと極めて大きくばらつく一方、総費用は1～2M前後で比較的安定していることから、損益の善し悪しは費用管理よりも売上の発生有無にほぼ左右される構造です。売上が2M以上確保できた月は黒字化できていますが、0～1M台にとどまる月は固定的な費用負担が吸収しきれず赤字に陥るパターンが繰り返されています。売上の平準化・受注の安定確保が最優先課題であり、あわせて売上の薄い月の費用を機動的に抑制できる体制を整えることが収益安定化の鍵となります。</div>
 </div>
 
 <div class="divider"></div>
@@ -138,7 +138,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
       <div class="chart-wrap"><canvas id="chart3b"></canvas></div>
     </div>
   </div>
-  <div class="ai-box">総費用は月1.4M〜3.4Mの幅があり、3月に3.44Mと突出して高く、営業利益が-2.01Mと最大赤字になっている点は要注意だ。一方8月は総費用が0.89Mと低水準に抑えられており、費用コントロールに柔軟性があることも窺える。ベース収益（0.09M）が総費用の6〜10%しかカバーできておらず、固定費を自力で賄える体制には程遠い費用構造となっている。</div>
+  <div class="ai-box">総費用は月1.4M〜1.8M程度で推移しているが、3月だけ3.44Mと突出しており、単月の大型支出（広告・外注・イベント等）がキャッシュを圧迫する構造がある。8月は総費用が0.89Mまで圧縮されており、意図的なコストコントロールまたは活動縮小の影響が見られる。ベース収益がほぼ一定（0.09M）であることから、固定費カバー率は最大でも10%止まりで、スポット収入なしでは毎月1.5M超の赤字が構造的に発生する。</div>
 </div>
 
 <div class="divider"></div>
@@ -156,7 +156,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
       <tbody><tr><td><b>2025/12</b></td><td class='num'>14万</td><td class='num'>136万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-122万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="3.0" cy="21.5" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/01</b></td><td class='num'>153万</td><td class='num'>179万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-26万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="9.7" cy="17.3" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/02</b></td><td class='num'>323万</td><td class='num'>168万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+155万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="16.5" cy="9.3" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/03</b></td><td class='num'>144万</td><td class='num'>344万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-201万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="23.2" cy="25.0" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/04</b></td><td class='num'>438万</td><td class='num'>140万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+297万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="29.9" cy="3.0" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/05</b></td><td class='num'>9万</td><td class='num'>176万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-167万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="36.6" cy="23.5" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/06</b></td><td class='num'>184万</td><td class='num'>155万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+30万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="43.4" cy="14.8" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/07</b></td><td class='num'>341万</td><td class='num'>178万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+163万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50.1" cy="8.9" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/08</b></td><td class='num'>9万</td><td class='num'>89万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-80万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="56.8" cy="19.7" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr><td><b>2026/09</b></td><td class='num'>0万</td><td class='num'>3万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-3万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="16.1" x2="77" y2="16.1" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.5 9.7,17.3 16.5,9.3 23.2,25.0 29.9,3.0 36.6,23.5 43.4,14.8 50.1,8.9 56.8,19.7 63.5,16.3 70.3,16.1 77.0,16.1" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="63.5" cy="16.3" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr style="opacity:.6"><td><b>2026/10</b><span style="font-size:.7em;color:#6c757d">（予定）</span></td><td class='num'>-</td><td class='num'>-</td><td class='num'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr><tr style="opacity:.6"><td><b>2026/11</b><span style="font-size:.7em;color:#6c757d">（予定）</span></td><td class='num'>-</td><td class='num'>-</td><td class='num'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td><td class='num' style='color:#6c757d'>-</td></tr></tbody>
     </table>
   </div>
-  <div class="ai-box">4月はB2B等4.29M（アカデミー入金・Harukky等の大型案件と推定）が入り、現預金が5.28Mと最高値に達した月だが、翌5月には売上0.09Mで現預金が2.71Mへ急落しており、スポット依存の脆弱性が如実に表れている。6月〜7月は比較的V字で回復しているが、8・9月で再び売上ゼロが続き現預金1.64Mに低下、ランウェイ1.8ヶ月という危険水域に突入した。月次での収支の振れ幅が±4M以上になる場合があり、キャッシュフロー予測の精度向上と資金バッファの常時確保が急務である。</div>
+  <div class="ai-box">4月の売上4.38M（B2B等4.29M）と2月の売上3.23M（B2C3.13M）が期間全体の収益を実質的に支えており、この2ヶ月の利益合計（4.52M）がなければ累積損失は深刻なレベルに達していた。5月・8月・9月はベース収益のみ（または売上ゼロ）で、3ヶ月連続の実質無収益状態が現預金の急速な減少を招いている。現預金は4月の5.28Mをピークに右肩下がりで1.64Mまで低下しており、資金余力の消耗ペースが加速している点に注意が必要だ。</div>
 </div>
 
 <div class="divider"></div>
@@ -166,15 +166,15 @@ tr:nth-child(even):hover td{background:#f0f4f8}
   <div class="sec-title">🔍 全体分析</div>
   <div class="ac">
     <h2>現状分析</h2>
-    <p>- **① 固定費カバー率の推移と評価**<br>ベース収益0.09Mに対し総費用は常時1M超であり、固定費カバー率は3〜10%で推移。自力で固定費をカバーできておらず、毎月のスポット収益がなければ即赤字という構造。改善の兆しはなく、ベース収益の抜本的引き上げが最優先課題。<br><br>- **② 大型スポット入金（4月等）のランウェイへの影響**<br>4月の4.29M入金（B2B等）が現預金を一時5.28Mまで押し上げ、ランウェイを約3ヶ月相当まで改善した。しかしその後のスポット不在で急速に消耗し、現在1.8ヶ月まで低下。スポット入金の"延命効果"は大きいが持続性はゼロ。<br><br>- **③ 資金ショート予測と投資余剰**<br>現預金1.64M・月平均費用約1.6Mを勘案すると、10月以降に売上ゼロが続けば即ショートリスク。新規施策への投資余剰は事実上ゼロであり、次の入金確定を最優先とすべき局面。<br><br>- **④ 品目「未選択」の注意**<br>売上が月によってカテゴリ未分類のまま計上されている可能性があり、タブ1・2の分析精度を損なう。入力ルールを即刻整備し、全件を正しい品目に紐付けること。</p>
+    <p>- **① 固定費カバー率**：ベース収益0.09Mに対し総費用は平均1.6M超で、カバー率は3〜10%と極めて低水準。ベース収益だけでは固定費の約5〜6%しか賄えておらず、「自力で固定費をカバーできている」とは到底言えない状態。スポット収入への依存度が構造的に高い。<br><br>- **② スポット入金とランウェイへの影響**：4月のB2B大型入金（アカデミー・Harukky等相当）がなければ現預金はすでに枯渇していた可能性が高く、ランウェイ1.8ヶ月もこれら大型入金の残効果によって辛うじて維持されている。<br><br>- **③ 資金ショート予測**：現預金1.64M÷月次費用（平均1.6M）＝約1.0ヶ月が実態に近く、10月中に次の入金がなければ資金ショートリスクが現実化する。新規施策への投資余力は現状ほぼゼロ。<br><br>- **④ 「未選択」売上の注意**：品目未選択の計上が累計で確認される場合、収益区分（ベース/B2C/B2B）の分析精度が低下する。freee上の品目入力ルールを今月中に整備・徹底すること。</p>
   </div>
   <div class="ac green">
     <h2>💡 課題と提案</h2>
-    <p>- **ベース収益の構造的引き上げ**：月0.09Mのサブスク・顧問収益を最低0.5M以上に引き上げる施策（定額プラン新設・既存顧客のリテンション強化）を90日以内に設計・着手する。<br>- **スポット収益の平準化**：B2C・B2Bとも特定月への偏在が激しい。パイプラインを3件以上常時保持し、四半期内に最低1件クローズできる受注管理体制を整える。<br>- **コスト管理の徹底**：3月の費用3.44Mのような急騰を防ぐため、月次予算上限（1.5M程度）を設定し、超過時は経営者承認制を導入する。</p>
+    <p>- **最大課題は「ベース収益の絶対額の小ささ」**：月0.09Mのサブスク・顧問等の安定収益を6ヶ月以内に0.5M以上に引き上げることが最優先。<br>- **スポット依存の平準化**：B2Cスポット（講座等）の開催頻度を月1回以上に安定化させ、売上の波を縮小する。<br>- **3月型の費用急増を防ぐ**：大型支出前に費用対効果の事前承認フローを設け、単月キャッシュアウトの上限（例：1.5M以内）を設定する。<br>- **B2Bパイプライン管理**：4月型の大型B2B案件に再現性を持たせるため、商談リストと受注予測を月次で経営者が確認する習慣をつける。</p>
   </div>
   <div class="ac red">
     <h2>🎯 今月の最重要アクション</h2>
-    <p>- **10月末までに次の売上を1件以上確定させる**（B2C講座・B2B契約いずれでも可）。現預金1.64Mでランウェイ1.8ヶ月は"余裕ゼロ"であり、今月の入金確保が事業継続の最優先条件。<br>- **freeeの売上品目の入力ルールを今週中に社内明文化**し、全件を正しいカテゴリで登録する。<br>- **11月以降の収入予測（楽観・悲観シナリオ）を数字で作成**し、資金ショートの具体的タイミングを把握する。</p>
+    <p>- **今週中に10〜11月の入金見込みを金額・日付で一覧化し、資金ショートの正確な到来日を特定する。**<br>- 入金が確認できない場合は、既存顧客への追加提案・前払いオファー・売掛の早期回収を即座に実行する。<br>- ベース収益化できる商品（月額顧問・定期講座等）の新規販売を今月中に最低1件クロージングすることを目標に設定する。</p>
   </div>
 </div>
 
@@ -201,7 +201,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
   </div>
 </div>
 
-<div class="footer">Generated by Claude Code × freee API ／ 2026-09-26</div>
+<div class="footer">Generated by Claude Code × freee API ／ 2026-09-27</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
