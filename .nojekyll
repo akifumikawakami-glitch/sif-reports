@@ -68,7 +68,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
 
 <header>
   <h1>📊 SIF 月次経営レポート（2026年10月）第4期</h1>
-  <p>会計期間: 2025年12月〜2026年11月 ／ 生成日: 2026-10-13</p>
+  <p>会計期間: 2025年12月〜2026年11月 ／ 生成日: 2026-10-18</p>
 </header>
 
 <div class="kpi-bar">
@@ -79,8 +79,8 @@ tr:nth-child(even):hover td{background:#f0f4f8}
   </div>
   <div class="ki">
     <div class="lbl">最新月 営業利益</div>
-    <div class="val neg">-2万円</div>
-    <div class="sub">赤字 / 期累計: +261万円</div>
+    <div class="val neg">-3万円</div>
+    <div class="sub">赤字 / 期累計: +274万円</div>
   </div>
   <div class="ki">
     <div class="lbl">現預金残高</div>
@@ -89,13 +89,13 @@ tr:nth-child(even):hover td{background:#f0f4f8}
   </div>
   <div class="ki">
     <div class="lbl">キャッシュランウェイ</div>
-    <div class="val pos">9.1ヶ月</div>
-    <div class="sub">直近3ヶ月平均費用 53万円/月</div>
+    <div class="val pos">10.0ヶ月</div>
+    <div class="sub">直近3ヶ月平均費用 48万円/月</div>
   </div>
   <div class="ki">
     <div class="lbl">純資産 / 自己資本比率</div>
-    <div class="val">547万円</div>
-    <div class="sub">自己資本比率: 83.7%</div>
+    <div class="val">560万円</div>
+    <div class="sub">自己資本比率: 85.7%</div>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
     <h3>ベース収益（緑）／B2Cスポット（青）／B2Bスポット等（オレンジ）の積み上げ棒グラフ</h3>
     <div class="chart-wrap"><canvas id="chart1"></canvas></div>
   </div>
-  <div class="ai-box">2026/09の売上は0万円で、前月から100%減（89万円減）でした。<br>期首からの累計売上は1,916万円（月平均192万円）です。<br>2026/10は13日時点の途中経過で、売上は0万円です。まだ計上されていない可能性があります。</div>
+  <div class="ai-box">2026/09の売上は0万円で、前月から100%減（89万円減）でした。<br>期首からの累計売上は1,916万円（月平均192万円）です。<br>2026/10は18日時点の途中経過で、売上は0万円です。まだ計上されていない可能性があります。</div>
 </div>
 
 <div class="divider"></div>
@@ -120,7 +120,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
     <h3>売上高（青・左）／総費用（オレンジ・左）／現預金残高推移（折れ線・右軸）</h3>
     <div class="chart-wrap"><canvas id="chart2"></canvas></div>
   </div>
-  <div class="ai-box">2025/12〜2026/09の累計は売上1,916万円・総費用1,653万円・営業利益263万円（営業利益率14%）です。<br>10ヶ月のうち黒字は4ヶ月、赤字は6ヶ月でした。<br>総費用は月平均165万円（最小51万円〜最大344万円）で、売上がこの月平均に届かなかった月は6ヶ月あります。</div>
+  <div class="ai-box">2025/12〜2026/09の累計は売上1,916万円・総費用1,639万円・営業利益278万円（営業利益率14%）です。<br>10ヶ月のうち黒字は4ヶ月、赤字は6ヶ月でした。<br>総費用は月平均164万円（最小37万円〜最大344万円）で、売上がこの月平均に届かなかった月は6ヶ月あります。</div>
 </div>
 
 <div class="divider"></div>
@@ -138,7 +138,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
       <div class="chart-wrap"><canvas id="chart3b"></canvas></div>
     </div>
   </div>
-  <div class="ai-box">2026/09の総費用は51万円で、前月から51%減（53万円減）でした。<br>直近3ヶ月の平均は月118万円です。<br>期首からの累計で大きい科目は、外注費（420万円・27%）、役員報酬（380万円・24%）、広告宣伝費（168万円・11%）です。<br>2026/09は「旅費交通費」が前月から18万円減と、最も大きく動きました。</div>
+  <div class="ai-box">2026/09の総費用は37万円で、前月から65%減（68万円減）でした。<br>直近3ヶ月の平均は月113万円です。<br>期首からの累計で大きい科目は、外注費（420万円・27%）、役員報酬（380万円・24%）、旅費交通費（173万円・11%）です。<br>2026/09は「外注費」が前月から13万円減と、最も大きく動きました。</div>
 </div>
 
 <div class="divider"></div>
@@ -153,7 +153,7 @@ tr:nth-child(even):hover td{background:#f0f4f8}
         <th>営業利益（実績） <span style="font-weight:400;font-size:.8em;opacity:.8">（推移）</span></th>
         <th>売上（予算）</th><th>費用（予算）</th><th>営業利益（予算）</th>
       </tr></thead>
-      <tbody><tr><td><b>2025/12</b></td><td class='num'>14万</td><td class='num'>136万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-122万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="3.0" cy="21.9" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>15万</td><td class='num' style='color:#6c757d'>136万</td><td class='num' style='color:#6c757d'>-121万</td></tr><tr><td><b>2026/01</b></td><td class='num'>153万</td><td class='num'>179万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-26万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="9.7" cy="18.2" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>154万</td><td class='num' style='color:#6c757d'>181万</td><td class='num' style='color:#6c757d'>-27万</td></tr><tr><td><b>2026/02</b></td><td class='num'>323万</td><td class='num'>168万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+155万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="16.5" cy="11.2" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>323万</td><td class='num' style='color:#6c757d'>199万</td><td class='num' style='color:#6c757d'>124万</td></tr><tr><td><b>2026/03</b></td><td class='num'>144万</td><td class='num'>344万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-201万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="23.2" cy="25.0" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>144万</td><td class='num' style='color:#6c757d'>421万</td><td class='num' style='color:#6c757d'>-277万</td></tr><tr><td><b>2026/04</b></td><td class='num'>438万</td><td class='num'>140万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+297万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="29.9" cy="5.6" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>438万</td><td class='num' style='color:#6c757d'>138万</td><td class='num' style='color:#6c757d'>300万</td></tr><tr><td><b>2026/05</b></td><td class='num'>9万</td><td class='num'>178万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-169万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="36.6" cy="23.8" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>9万</td><td class='num' style='color:#6c757d'>138万</td><td class='num' style='color:#6c757d'>-129万</td></tr><tr><td><b>2026/06</b></td><td class='num'>184万</td><td class='num'>155万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+30万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="43.4" cy="16.0" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>0万</td><td class='num' style='color:#6c757d'>4万</td><td class='num' style='color:#6c757d'>-4万</td></tr><tr><td><b>2026/07</b></td><td class='num'>562万</td><td class='num'>197万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+366万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50.1" cy="3.0" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>19万</td><td class='num' style='color:#6c757d'>144万</td><td class='num' style='color:#6c757d'>-125万</td></tr><tr><td><b>2026/08</b></td><td class='num'>89万</td><td class='num'>105万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-15万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="56.8" cy="17.8" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>319万</td><td class='num' style='color:#6c757d'>212万</td><td class='num' style='color:#6c757d'>107万</td></tr><tr><td><b>2026/09</b></td><td class='num'>0万</td><td class='num'>51万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-51万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="63.5" cy="19.2" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>339万</td><td class='num' style='color:#6c757d'>197万</td><td class='num' style='color:#6c757d'>142万</td></tr><tr><td><b>2026/10</b></td><td class='num'>0万</td><td class='num'>2万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-2万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,19.2 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="70.3" cy="17.3" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>114万</td><td class='num' style='color:#6c757d'>167万</td><td class='num' style='color:#6c757d'>-53万</td></tr><tr style="opacity:.6"><td><b>2026/11</b><span style="font-size:.7em;color:#6c757d">（予定）</span></td><td class='num'>-</td><td class='num'>-</td><td class='num'>-</td><td class='num' style='color:#6c757d'>19万</td><td class='num' style='color:#6c757d'>167万</td><td class='num' style='color:#6c757d'>-148万</td></tr></tbody>
+      <tbody><tr><td><b>2025/12</b></td><td class='num'>14万</td><td class='num'>136万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-122万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="3.0" cy="21.9" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>15万</td><td class='num' style='color:#6c757d'>136万</td><td class='num' style='color:#6c757d'>-121万</td></tr><tr><td><b>2026/01</b></td><td class='num'>153万</td><td class='num'>179万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-26万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="9.7" cy="18.2" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>154万</td><td class='num' style='color:#6c757d'>181万</td><td class='num' style='color:#6c757d'>-27万</td></tr><tr><td><b>2026/02</b></td><td class='num'>323万</td><td class='num'>168万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+155万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="16.5" cy="11.2" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>323万</td><td class='num' style='color:#6c757d'>199万</td><td class='num' style='color:#6c757d'>124万</td></tr><tr><td><b>2026/03</b></td><td class='num'>144万</td><td class='num'>344万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-201万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="23.2" cy="25.0" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>144万</td><td class='num' style='color:#6c757d'>421万</td><td class='num' style='color:#6c757d'>-277万</td></tr><tr><td><b>2026/04</b></td><td class='num'>438万</td><td class='num'>140万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+297万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="29.9" cy="5.6" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>438万</td><td class='num' style='color:#6c757d'>138万</td><td class='num' style='color:#6c757d'>300万</td></tr><tr><td><b>2026/05</b></td><td class='num'>9万</td><td class='num'>178万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-169万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="36.6" cy="23.8" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>9万</td><td class='num' style='color:#6c757d'>138万</td><td class='num' style='color:#6c757d'>-129万</td></tr><tr><td><b>2026/06</b></td><td class='num'>184万</td><td class='num'>155万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+30万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="43.4" cy="16.0" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>0万</td><td class='num' style='color:#6c757d'>4万</td><td class='num' style='color:#6c757d'>-4万</td></tr><tr><td><b>2026/07</b></td><td class='num'>562万</td><td class='num'>197万</td><td class='num' style='color:#155724;background:#d4edda;font-weight:700'>+366万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50.1" cy="3.0" r="4" fill="#28a745" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>19万</td><td class='num' style='color:#6c757d'>144万</td><td class='num' style='color:#6c757d'>-125万</td></tr><tr><td><b>2026/08</b></td><td class='num'>89万</td><td class='num'>105万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-15万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="56.8" cy="17.8" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>319万</td><td class='num' style='color:#6c757d'>212万</td><td class='num' style='color:#6c757d'>107万</td></tr><tr><td><b>2026/09</b></td><td class='num'>0万</td><td class='num'>37万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-37万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="63.5" cy="18.6" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>339万</td><td class='num' style='color:#6c757d'>197万</td><td class='num' style='color:#6c757d'>142万</td></tr><tr><td><b>2026/10</b></td><td class='num'>0万</td><td class='num'>3万</td><td class='num' style='color:#721c24;background:#f8d7da;font-weight:700'>-3万<svg width="80" height="28" style="vertical-align:middle;margin-left:6px"><line x1="3" y1="17.2" x2="77" y2="17.2" stroke="#e0e0e0" stroke-width="1"/><polyline points="3.0,21.9 9.7,18.2 16.5,11.2 23.2,25.0 29.9,5.6 36.6,23.8 43.4,16.0 50.1,3.0 56.8,17.8 63.5,18.6 70.3,17.3 77.0,17.2" fill="none" stroke="#adb5bd" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="70.3" cy="17.3" r="4" fill="#dc3545" stroke="#fff" stroke-width="1.5"/></svg></td><td class='num' style='color:#6c757d'>114万</td><td class='num' style='color:#6c757d'>167万</td><td class='num' style='color:#6c757d'>-53万</td></tr><tr style="opacity:.6"><td><b>2026/11</b><span style="font-size:.7em;color:#6c757d">（予定）</span></td><td class='num'>-</td><td class='num'>-</td><td class='num'>-</td><td class='num' style='color:#6c757d'>19万</td><td class='num' style='color:#6c757d'>167万</td><td class='num' style='color:#6c757d'>-148万</td></tr></tbody>
     </table>
   </div>
   <div class="ai-box">売上が最も大きかったのは2026/07（562万円）です。<br>営業利益は2026/07の366万円が最大、2026/03の▲201万円が最小でした。<br>営業赤字の月は2025/12・2026/01・2026/03・2026/05・2026/08・2026/09の6ヶ月です。<br>現預金は2026/04の528万円が最高、2026/06の116万円が最低です。</div>
@@ -166,15 +166,15 @@ tr:nth-child(even):hover td{background:#f0f4f8}
   <div class="sec-title">🔍 全体分析</div>
   <div class="ac">
     <h2>現状分析</h2>
-    <p>現預金は481万円で、直近3ヶ月の平均費用（月118万円）で割るとランウェイは約4.1ヶ月、余裕があるとは言えない水準です。2026/09は売上0万円・営業利益▲51万円（赤字）でした。<br>① 固定費カバー率（ベース収益÷総費用）は2026/09が0%、直近3ヶ月平均が5%です。費用の大半をスポット売上に頼っている状態です。<br>② 現預金は2026/10時点で481万円、前月末から205%増（323万円増）です。直近3ヶ月は月平均14万円のペースで増えています。<br>③ 期首からの売上のうちスポット（B2C・B2B等）は96%です。大型入金の有無で月次の損益と現預金が大きく振れる構造です。<br>④ 「B2Bスポット等」の累計765万円には、freeeで品目が未選択の売上も含まれます。品目タグの付け漏れがないか確認してください。<br>※ レポート上部のランウェイ（9.1ヶ月）は当月途中の費用を含めた平均で計算しているため、月初は長めに出ます。</p>
+    <p>現預金は481万円で、直近3ヶ月の平均費用（月113万円）で割るとランウェイは約4.3ヶ月、余裕があるとは言えない水準です。2026/09は売上0万円・営業利益▲37万円（赤字）でした。<br>① 固定費カバー率（ベース収益÷総費用）は2026/09が0%、直近3ヶ月平均が5%です。費用の大半をスポット売上に頼っている状態です。<br>② 現預金は2026/10時点で481万円、前月末から205%増（323万円増）です。直近3ヶ月は月平均14万円のペースで増えています。<br>③ 期首からの売上のうちスポット（B2C・B2B等）は96%です。大型入金の有無で月次の損益と現預金が大きく振れる構造です。<br>④ 「B2Bスポット等」の累計765万円には、freeeで品目が未選択の売上も含まれます。品目タグの付け漏れがないか確認してください。<br>※ レポート上部のランウェイ（10.0ヶ月）は当月途中の費用を含めた平均で計算しているため、月初は長めに出ます。</p>
   </div>
   <div class="ac green">
     <h2>💡 課題と提案</h2>
-    <p>・資金繰り：ランウェイは約4.1ヶ月です。大型の支出や新規投資は、入金の見通しを確認してから判断してください。<br>・収益構造：ベース収益が費用を月平均112万円下回っています。継続契約の積み増しか、固定費の見直しが必要です。<br>・損益：2026/09まで2ヶ月連続で営業赤字です。<br>・記帳：2026/09の総費用が51万円と、それまでの月平均（178万円）を大きく下回っています。記帳が済んでいない可能性があり、その場合ランウェイは実際より長く出ています。<br>・記帳：2026/10の売上がまだ計上されていません。請求済みの案件が記帳されているか確認してください。</p>
+    <p>・資金繰り：ランウェイは約4.3ヶ月です。大型の支出や新規投資は、入金の見通しを確認してから判断してください。<br>・収益構造：ベース収益が費用を月平均107万円下回っています。継続契約の積み増しか、固定費の見直しが必要です。<br>・損益：2026/09まで2ヶ月連続で営業赤字です。<br>・記帳：2026/09の総費用が37万円と、それまでの月平均（178万円）を大きく下回っています。記帳が済んでいない可能性があり、その場合ランウェイは実際より長く出ています。<br>・記帳：2026/10の売上がまだ計上されていません。請求済みの案件が記帳されているか確認してください。</p>
   </div>
   <div class="ac red">
     <h2>🎯 今月の最重要アクション</h2>
-    <p>・2026/09分の記帳（費用・売上）が済んでいるかfreeeで確認する<br>・今後3ヶ月の入金予定を確認し、ランウェイが3ヶ月を切らないか見ておく<br>・ベース収益をあと月112万円積み増す具体策（継続契約の候補先）を挙げる</p>
+    <p>・2026/09分の記帳（費用・売上）が済んでいるかfreeeで確認する<br>・今後3ヶ月の入金予定を確認し、ランウェイが3ヶ月を切らないか見ておく<br>・ベース収益をあと月107万円積み増す具体策（継続契約の候補先）を挙げる</p>
   </div>
 </div>
 
@@ -193,12 +193,12 @@ tr:nth-child(even):hover td{background:#f0f4f8}
       </div>
       <div style="padding:12px;background:#f8f9fa;border-radius:8px;border-left:4px solid #CC6633">
         <div style="font-size:.75rem;color:#6c757d">費用 着地見込み</div>
-        <div style="font-size:1.2rem;font-weight:700">1,822万円</div>
+        <div style="font-size:1.2rem;font-weight:700">1,809万円</div>
         <div style="font-size:.75rem;color:#6c757d">計画：2,104万円</div>
       </div>
       <div style="padding:12px;background:#f8f9fa;border-radius:8px;border-left:4px solid #28a745">
         <div style="font-size:.75rem;color:#6c757d">営業利益 着地見込み</div>
-        <div class="pos" style="font-size:1.2rem;font-weight:700">+113万円</div>
+        <div class="pos" style="font-size:1.2rem;font-weight:700">+126万円</div>
         <div style="font-size:.75rem;color:#6c757d">計画：-211万円</div>
       </div>
     </div>
@@ -215,8 +215,8 @@ tr:nth-child(even):hover td{background:#f0f4f8}
       </div>
       <div style="padding:12px;background:#f8f9fa;border-radius:8px">
         <div style="font-size:.75rem;color:#6c757d">営業利益 前年比</div>
-        <div style="font-size:1.2rem;font-weight:700">51.3%</div>
-        <div style="font-size:.75rem;color:#6c757d">第3期：221万円 → 第4期：113万円</div>
+        <div style="font-size:1.2rem;font-weight:700">57.2%</div>
+        <div style="font-size:.75rem;color:#6c757d">第3期：221万円 → 第4期：126万円</div>
       </div>
     </div>
   </div>
@@ -262,24 +262,24 @@ tr:nth-child(even):hover td{background:#f0f4f8}
   </div>
 </div>
 
-<div class="footer">Generated by Claude Code × freee API ／ 2026-10-13</div>
+<div class="footer">Generated by Claude Code × freee API ／ 2026-10-18</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var labels      = ["2025/12", "2026/01", "2026/02", "2026/03", "2026/04", "2026/05", "2026/06", "2026/07", "2026/08", "2026/09", "2026/10", "2026/11"];
   var sales       = [142780, 1531020, 3227039, 1437780, 4377130, 87780, 1843780, 5622580, 891780, 0, 0, 0];
-  var opProfit    = [-1219619, -263522, 1550115, -2006894, 2974564, -1689128, 297086, 3655380, -154269, -512209, -17653, 0];
-  var totalCost   = [1362399, 1794542, 1676924, 3444674, 1402566, 1776908, 1546694, 1967200, 1046049, 512209, 17653, 0];
+  var opProfit    = [-1219619, -263522, 1550115, -2006894, 2974564, -1689128, 297086, 3655380, -154269, -367779, -32227, 0];
+  var totalCost   = [1362399, 1794542, 1676924, 3444674, 1402566, 1776908, 1546694, 1967200, 1046049, 367779, 32227, 0];
   var salesBase   = [87780, 87780, 87780, 87780, 87780, 87780, 87780, 87780, 87780, 0, 0, 0];
   var salesB2C    = [0, 1378240, 3127075, 1350000, 0, 0, 1756000, 2308000, 804000, 0, 0, 0];
   var salesB2B    = [55000, 65000, 12184, 0, 4289350, 0, 0, 3226800, 0, 0, 0, 0];
-  var cashBalance = [2622254, 2703471, 3702381, 1926811, 5277994, 2712141, 1162574, 1535851, 1973147, 1577144, 4805949, 0];
-  var expLabels   = ["外注費", "役員報酬", "広告宣伝費", "旅費交通費", "給料手当", "支払報酬料", "法定福利費", "通信費", "支払手数料", "消耗品費"];
-  var expData     = [[610739, 286582, 422900, 1449715, 292055, 270890, 416314, 316300, 133526, 0, 0, 0], [300000, 300000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 0, 0], [27363, 66000, 358499, 934115, 71190, 73423, 66000, 41770, 43549, 0, 0, 0], [139405, 519934, 64314, 66799, 77588, 341088, 4387, 195814, 178517, 0, 0, 0], [105183, 106302, 143160, 178868, 146006, 144472, 145364, 143020, 0, 0, 0, 0], [55000, 308000, 55000, 55000, 55000, 55000, 55000, 55000, 55000, 0, 0, 0], [43395, 43395, 43395, 43305, 43650, 43650, 43650, 43650, 62976, 62976, 0, 0], [34775, 32560, 30248, 29960, 47722, 108413, 38367, 36951, 43910, 46013, 16328, 0], [26538, 28010, 48877, 45941, 44225, 19397, 18349, 116117, 17974, 3220, 1325, 0], [0, 40653, 75559, 103704, 101246, 735, 1850, 979, 23097, 0, 0, 0]];
+  var cashBalance = [2622254, 2703471, 3702381, 1926811, 5277994, 2712141, 1162574, 1535851, 1973147, 1577144, 4805749, 0];
+  var expLabels   = ["外注費", "役員報酬", "旅費交通費", "広告宣伝費", "給料手当", "支払報酬料", "通信費", "法定福利費", "支払手数料", "消耗品費"];
+  var expData     = [[610739, 286582, 422900, 1449715, 292055, 270890, 416314, 316300, 133526, 0, 0, 0], [300000, 300000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 400000, 0, 0], [139405, 519934, 64314, 66799, 77588, 341088, 4387, 195814, 178517, 145670, 0, 0], [27363, 66000, 358499, 934115, 71190, 73423, 66000, 41770, 43549, 0, 2900, 0], [105183, 106302, 143160, 178868, 146006, 144472, 145364, 143020, 0, 0, 0, 0], [55000, 308000, 55000, 55000, 55000, 55000, 55000, 55000, 55000, 0, 0, 0], [34775, 32560, 30248, 29960, 47722, 108413, 38367, 36951, 43910, 47253, 27700, 0], [43395, 43395, 43395, 43305, 43650, 43650, 43650, 43650, 62976, 62976, 0, 0], [26538, 28010, 48877, 45941, 44225, 19397, 18349, 116117, 17974, 3220, 1627, 0], [0, 40653, 75559, 103704, 101246, 735, 1850, 979, 23097, 0, 0, 0]];
   var expColors   = ["#4C72B0", "#DD4444", "#55A868", "#C44E52", "#8172B2", "#937860", "#DA8BC3", "#8C8C8C", "#CCB974", "#64B5CD"];
-  var donutLabels = ["通信費", "支払手数料"];
-  var donutData   = [16328, 1325];
-  var donutColors = ["#4C72B0", "#DD4444"];
+  var donutLabels = ["通信費", "広告宣伝費", "支払手数料"];
+  var donutData   = [27700, 2900, 1627];
+  var donutColors = ["#4C72B0", "#DD4444", "#55A868"];
 
   Chart.defaults.font.family = "'Segoe UI','Noto Sans JP',sans-serif";
 
